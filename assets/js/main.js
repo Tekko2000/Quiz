@@ -76,7 +76,9 @@ data.forEach(e => {
 let showResult = (event) => {
     if (event.target.parentNode.nextElementSibling.innerHTML === event.target.innerHTML) {
         event.target.style.background = "green"
+        event.target.style.color = "white"
     } else {
         event.target.style.background = "red"
+        event.target.style.color = "white"
     }
 }
